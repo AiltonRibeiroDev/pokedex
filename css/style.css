@@ -1,0 +1,225 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+margin: auto;
+padding: auto;
+text-align: center;
+background-color: #e0e0e0;
+
+}
+
+.identific img{
+
+width: 260px;
+height: 229px;
+position: relative;
+margin-top: 15px;
+transition: 1s;
+
+}
+
+#nome{
+
+text-align: start;
+padding: 30px;
+color: white;
+
+
+
+}
+
+.identific{
+border-radius: 8px;
+height: 310px;
+background-color: goldenrod;
+
+}
+
+.main-conteiner{
+margin-top: 80px;
+display: flex;
+justify-content: center;
+gap: 50px;
+
+
+
+
+}
+
+
+.box-2{
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+
+}
+
+.mudar{
+padding: 15px 70px;
+border-radius: 13.5px;
+border: 0;
+background-color: rgb(90, 90, 90);
+color: white;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 500;
+
+
+
+}
+.mudar:hover{
+
+  background-color: rgb(209, 60, 6);
+  transition: 0.5s;
+  cursor: pointer;
+ 
+
+}
+
+
+
+
+
+.box-1{
+border-radius: 8px;
+width: 350px;
+height: 600px;
+background-color: white;
+
+
+
+
+}
+
+.nome{
+
+display: flex;
+text-align: start;
+
+}
+
+.power-division{
+display: flex;
+justify-content: center;
+flex-wrap: nowrap;
+flex-direction: initial;
+margin-top: 55px;
+gap: 70px;
+text-align: start;
+
+
+
+}
+
+
+
+.power-division p{
+margin-top: 8px;
+
+}
+
+.power-division h4{
+border-bottom: solid 1px black ;
+margin-bottom: 15px;
+
+}
+
+@media screen and (max-width: 600px) {
+  
+
+
+  .power-division{
+   gap: 20px ;
+ 
+
+  }
+
+  .mudar{
+    padding: 10px 50px;
+    border-radius: 13.5px;
+    border: 0;
+    background-color: rgb(90, 90, 90);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    
+    
+    
+    }
+
+    .identific img{
+
+      width: 240px;
+      height: 219px;
+      position: relative;
+      margin-top: 15px;
+      transition: 1s;
+      
+      }
+
+      .box-1{
+        border-radius: 8px;
+        width: 330px;
+        height: 600px;
+        background-color: white;
+        
+        
+        
+        
+        }
+
+        .main-conteiner{
+          margin-top: 40px;
+          display: flex;
+          justify-content: center;
+          gap: 50px;
+        
+          }
+
+}
+
+@media screen and (max-width: 580px) {
+  
+
+
+ body{
+margin: auto;
+padding: auto;
+text-align: center;
+
+
+}
+
+
+
+
+
+
+
+        .main-conteiner{
+          margin-top: 30px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          gap: 30px;
+        align-items: center;
+          }
+
+          .box-1{
+            border-radius: 8px;
+            width: 310px;
+            height: 600px;
+            background-color: white;
+            
+            
+            
+            
+            }
+
+}
